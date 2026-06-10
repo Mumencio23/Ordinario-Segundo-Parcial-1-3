@@ -17,16 +17,29 @@
 </nav>
 
 <main>
-    <div class="cuadro">
-        <label>Web</label>
-        <input type="text">
+    <div class="contenedor">
 
-        <label>Nombre</label>
-        <input type="text">
+        <div class="campos">
 
-        <label>Apellido</label>
-        <input type=
-        <button>Buscar</button>
+            <div class="fila">
+                <label for="web">Web</label>
+                <input type="text" id="web" placeholder="www.ejemplo.com">
+            </div>
+
+            <div class="fila">
+                <label for="nombre">Nombre</label>
+                <input type="text" id="nombre" placeholder="Juan">
+            </div>
+
+            <div class="fila">
+                <label for="apellido">Apellido</label>
+                <input type="text" id="apellido" placeholder="Pérez">
+            </div>
+
+        </div>
+
+        <button class="btn-buscar">Buscar</button>
+
     </div>
 </main>
 
